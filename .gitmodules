@@ -1,0 +1,7 @@
+[submodule "buildtools"]
+	path = buildtools
+	url = https://review.haiku-os.org/buildtools
+	ignore = dirty
+[submodule "haiku"]
+	path = haiku
+	url = https://review.haiku-os.org/haiku
