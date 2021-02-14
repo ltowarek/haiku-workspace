@@ -7,17 +7,9 @@ cd haiku-workspace
 ```
 
 ## Create container
-### Standard Docker container
 ```
 docker build -t haiku-workspace ./docker
 docker run --rm -it -v $(pwd):/haiku-workspace -w /haiku-workspace haiku-workspace
-```
-
-### Visual Studio Code devcontainer
-```
-code .
-F1
-Remote-Containers: Rebuild and Reopen in Container
 ```
 
 ## Build Haiku inside container
